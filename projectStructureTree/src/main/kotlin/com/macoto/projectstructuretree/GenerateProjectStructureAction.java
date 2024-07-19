@@ -1,4 +1,4 @@
-package com.example.projectstructuretree;
+package com.macoto.projectstructuretree;
 
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
