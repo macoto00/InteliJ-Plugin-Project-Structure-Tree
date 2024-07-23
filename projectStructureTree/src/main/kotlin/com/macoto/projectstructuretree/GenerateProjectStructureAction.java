@@ -29,7 +29,7 @@ public class GenerateProjectStructureAction extends AnAction {
 
     private void generateStructure(VirtualFile directory, StringBuilder builder, int level, Set<VirtualFile> visited) {
         if (!visited.add(directory)) {
-            return; // Avoid infinite recursion
+            return; 
         }
 
         String indent = "│   ".repeat(level);
