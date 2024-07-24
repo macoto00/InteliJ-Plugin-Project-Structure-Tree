@@ -12,6 +12,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class GenerateProjectStructureAction extends AnAction {
+
     @Override
     public void actionPerformed(AnActionEvent e) {
         VirtualFile file = e.getData(com.intellij.openapi.actionSystem.CommonDataKeys.VIRTUAL_FILE);
@@ -29,7 +30,7 @@ public class GenerateProjectStructureAction extends AnAction {
 
     private void generateStructure(VirtualFile directory, StringBuilder builder, int level, Set<VirtualFile> visited) {
         if (!visited.add(directory)) {
-            return; 
+            return;
         }
 
         String indent = "│   ".repeat(level);
@@ -52,3 +53,4 @@ public class GenerateProjectStructureAction extends AnAction {
         Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection, null);
     }
 }
+
