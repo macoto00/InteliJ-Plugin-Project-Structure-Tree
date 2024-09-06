@@ -1,10 +1,5 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path fill-rule="evenodd" transform="translate(2, 2) scale(1.5)"
-          d="M6 5a2 2 0 0 1 2-2h4.157a2 2 0 0 1 1.656.879L15.249 6H19a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2v-5a3 3 0 0 0-3-3h-3.22l-1.14-1.682A3 3 0 0 0 9.157 6H6V5Z"
-          clip-rule="evenodd" fill="#677D6A"/>
-    <path fill-rule="evenodd" transform="translate(2, 2) scale(1.5)"
-          d="M3 9a2 2 0 0 1 2-2h4.157a2 2 0 0 1 1.656.879L12.249 10H3V9Zm0 3v7a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2v-7H3Z"
-          clip-rule="evenodd" fill="#D6BD98"/>
-    <text x="8" y="26" font-family="Courier New, Monaco, monospace" font-weight="bold" font-size="4" fill="#1A3636">Project</text>
-    <text x="8" y="31" font-family="Courier New, Monaco, monospace" font-weight="bold" font-size="4" fill="#1A3636">Tree</text>
+<svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+    <rect width="40" height="40" fill="none"/>
+    <circle cx="16" cy="16" r="10" fill="#4a90e2" />
+    <circle cx="24" cy="24" r="10" fill="#50e3c2" />
 </svg>
