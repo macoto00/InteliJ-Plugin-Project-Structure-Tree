@@ -5,4 +5,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "projectStructureTree"
+rootProject.name = "structureTree"
