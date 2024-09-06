@@ -4,5 +4,9 @@ Generating project structure tree on a click.
 Download at - 
 
 - `./gradlew buildPlugin`
-- `./gradlew publishPlugin`
 - `./gradlew runIde`
+  
+- `./gradlew publishPlugin`
+  
+- `./gradlew clean buildPlugin`
+
